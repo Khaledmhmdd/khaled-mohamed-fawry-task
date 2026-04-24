@@ -29,8 +29,8 @@ public class Main {
 
         System.out.println("\nTesting Hybrid Car:");
         hybridCar.start();
-        hybridCar.accelerate(); // should use electric below 50
-        for (int i = 0; i < 5; i++) hybridCar.accelerate(); // cross 50 → switch to gas
+        hybridCar.accelerate();
+        for (int i = 0; i < 5; i++) hybridCar.accelerate();
         hybridCar.brake();
         hybridCar.stop();
 
